@@ -1,5 +1,7 @@
-package crawlz;
+package main
 
-func Hello() string {
-	return "Hello, You!"
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, You!")
 }
