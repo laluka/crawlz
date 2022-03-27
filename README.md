@@ -14,12 +14,14 @@ go get -v github.com/laluka/crawlz
 # Dev & Release
 
 ```bash
+VER=v0.0.3
+COMMIT="last change is..."
 git add .
 git status
-git commit -m "foo bar"
+git commit -m "$COMMIT"
 git push
-git tag v0.0.3
-git push origin !$
+git tag "$VER"
+git push origin "$VER"
 ```
 
 
